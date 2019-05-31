@@ -1,10 +1,9 @@
 # Hagerty - Batch Update Vlocity Component Documentation
 
-One Paragraph of project description goes here
+<img src="https://github.com/dbandi/Hagerty/blob/master/image4.png" width="300">
 
 ## vehicleGrid
 
 Data grid / accordion and record editor component.
 #### template: forceIQ-vlcEditBlock
-
-![alt text](https://github.com/dbandi/Hagerty/blob/master/image4.png)
+<img src="https://github.com/dbandi/Hagerty/blob/master/image1.png" width="300">
