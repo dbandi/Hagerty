@@ -17,3 +17,29 @@ The grid columns and row are configured through Edit as JSON.
 JSON Configuration
 <img src="https://github.com/dbandi/Hagerty/blob/master/image10.png" width="300">
 
+The allowed maximum height for the grid record expansion.
+```
+maxExpansionHeight = 1000px
+```
+
+Adding this property will create an index for each record
+```
+trackingIndexField = vehicleIndex
+```
+
+Columns define the grid columns. Each entry will have a label which will represent the header
+and the fields which will define the data displayed in the column.
+```
+columns = []
+```
+```
+{
+  "label": "Vehicle",
+  "field": [
+    "vehicleYear",
+    "vehicleMake",
+    "vehicleModel";
+  ]
+}
+```
+
