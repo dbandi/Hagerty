@@ -43,3 +43,42 @@ columns = []
 }
 ```
 
+## vehicleGridBatchEdit
+
+Batch edit component for an edit block within the same step.
+```
+template = forceIQ-vlcBatchUpdate
+```
+<img src="https://github.com/dbandi/Hagerty/blob/master/image5.png" width="300">
+<img src="https://github.com/dbandi/Hagerty/blob/master/image9.png" width="300">
+
+The forceIQ-vlcBatchUpdate works like a regular edit block. In the structure under design mode,
+you can load standard vlocity components from the “Inputs” category. This will drive the fields
+that can be updated in a forceIQ-vlcEditBlock within the same step. The field names requires an
+“edit_” prefix then the name of element on the grid block to define which field will be updated.
+
+The batch update will display a button which will pop a screen where you can enter values to
+run a batch edit. Each record from the edit block will require to be selected before it can be
+updated. The values for the batch edit form will be prepopulated by values where all the
+selected values have the same value.
+
+
+<img src="https://github.com/dbandi/Hagerty/blob/master/image2.png" width="300">
+
+JSON Configuration
+<img src="https://github.com/dbandi/Hagerty/blob/master/image8.png" width="300">
+
+```
+  "target": "vehicleGrid"
+```
+Target defines the element name of the `forceIQ-vlcEditBlock` where the batch update will be applied.
+
+## storageManager
+
+Storage location data management
+`template: hagerty-vlcStorageManager`
+<img src="https://github.com/dbandi/Hagerty/blob/master/image7.png" width="300">
+
+The hagerty-vlcStorageManager works like a regular edit block. In the structure under design mode, you can load standard vlocity components from the “Inputs” category. This will drive the fields that will be assigned on vlocity omniscript response data. Each field will require a prefix, the prefix is assigned in component JSON configuration.
+
+
