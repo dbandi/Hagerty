@@ -7,3 +7,4 @@ One Paragraph of project description goes here
 Data grid / accordion and record editor component.
 #### template: forceIQ-vlcEditBlock
 
+![alt text](https://github.com/dbandi/Hagerty/blob/master/image4.png)
