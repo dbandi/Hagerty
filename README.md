@@ -81,4 +81,7 @@ Storage location data management
 
 The hagerty-vlcStorageManager works like a regular edit block. In the structure under design mode, you can load standard vlocity components from the “Inputs” category. This will drive the fields that will be assigned on vlocity omniscript response data. Each field will require a prefix, the prefix is assigned in component JSON configuration.
 
+<img src="https://github.com/dbandi/Hagerty/blob/master/image6.png" width="300">
 
+JSON Configuration
+<img src="https://github.com/dbandi/Hagerty/blob/master/image3.png" width="300">
